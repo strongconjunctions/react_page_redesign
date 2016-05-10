@@ -8,9 +8,10 @@ body {
 }
 
 h1 {
-    border-bottom: 3px solid #000;
+    border-bottom: 2px solid #000;
     padding-bottom: 15px;
     font-size: 2.4em;
+    letter-spacing: -0.02em;
     font-weight: 900;
     margin-bottom: 30px;
 }
@@ -21,10 +22,10 @@ li {
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.1em;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.05em;
+    box-shadow: 1px 2px 2px rgba(10, 10, 10, .5);
     text-transform: uppercase;
     display: inline-block;
     background-color: #000;
@@ -54,3 +55,13 @@ footer {
 footer a {
     text-decoration: none;
 }
+/* 
+.triangle {
+    width: 0;
+    height: 0;
+    z-index: -1;
+    margin-top: 50px;
+    position: absolute;
+    border-top: 20px solid #888;
+    border-right: 40px solid transparent;
+} */
