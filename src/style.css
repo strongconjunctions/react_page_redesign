@@ -23,14 +23,22 @@ li {
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 1.1em;
-    letter-spacing: 0.05em;
-    box-shadow: 1px 2px 2px rgba(10, 10, 10, .5);
+    font-size: 1em;
+    letter-spacing: 0.08em;
+    /* box-shadow: 1px 2px 2px rgba(10, 10, 10, .5); */
     text-transform: uppercase;
     display: inline-block;
     background-color: #000;
     color: #fff;
     padding: 7px 10px;
+}
+
+
+.symbol {
+    position: absolute;
+    margin-top: 53px;
+    font-size: 1.7em;
+    margin-left: -11px;
 }
 
 p {
@@ -54,20 +62,4 @@ footer {
 
 footer a {
     text-decoration: none;
-}
-/* 
-.triangle {
-    width: 0;
-    height: 0;
-    z-index: -1;
-    margin-top: 50px;
-    position: absolute;
-    border-top: 20px solid #888;
-    border-right: 40px solid transparent;
-} */
-.conjugation {
-    position: absolute;
-    margin-top: 55px;
-    font-size: 1.7em;
-    margin-left: -11px;
 }
