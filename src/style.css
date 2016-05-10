@@ -65,3 +65,9 @@ footer a {
     border-top: 20px solid #888;
     border-right: 40px solid transparent;
 } */
+.conjugation {
+    position: absolute;
+    margin-top: 55px;
+    font-size: 1.7em;
+    margin-left: -11px;
+}

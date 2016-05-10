@@ -8,7 +8,8 @@ export default class Element extends React.Component {
                 {this.props.data.contents.map(function(element) {
                         return (
                             <div>
-                                <div className="triangle"></div>
+                                
+                                <div className="conjugation">☌</div>
                                 <h3 key={element.name} className="user-name">{element.name}</h3>
                                 <p>{element.text}</p>
                             </div>
